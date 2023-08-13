@@ -22,3 +22,4 @@ body {
     stroke: rgba(0, 255, 255, 0.2);
     stroke-width: 10;
     stroke-dasharray: 880;
+    stroke-dashoffset: 0;
