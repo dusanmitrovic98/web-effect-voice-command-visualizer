@@ -19,3 +19,4 @@ body {
 
 .outer-ring {
     fill: none;
+    stroke: rgba(0, 255, 255, 0.2);
