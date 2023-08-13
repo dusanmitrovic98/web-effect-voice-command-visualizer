@@ -30,3 +30,4 @@ body {
     fill: rgba(0, 255, 255, 0.5);
     opacity: 0;
     transform-origin: center;
+    transform: scale(0);
