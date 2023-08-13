@@ -14,3 +14,4 @@ body {
 }
 
 .circle {
+    transform: rotate(-90deg);
