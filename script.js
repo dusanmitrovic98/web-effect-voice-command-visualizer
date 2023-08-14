@@ -15,3 +15,4 @@ function simulateVoiceInput() {
 }
 
 setInterval(simulateVoiceInput, 500);
+
