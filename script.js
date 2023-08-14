@@ -5,3 +5,4 @@ function updateVisualizer(amplitude) {
   const dashOffset = 880 - amplitude * 800; // Adjust based on input
   outerRing.style.strokeDashoffset = dashOffset;
   innerWave.style.opacity = amplitude;
+  innerWave.style.transform = `scale(${amplitude})`;
