@@ -8,3 +8,4 @@ function updateVisualizer(amplitude) {
   innerWave.style.transform = `scale(${amplitude})`;
 }
 
+function simulateVoiceInput() {
