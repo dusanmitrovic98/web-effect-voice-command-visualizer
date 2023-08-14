@@ -6,3 +6,4 @@ function updateVisualizer(amplitude) {
   outerRing.style.strokeDashoffset = dashOffset;
   innerWave.style.opacity = amplitude;
   innerWave.style.transform = `scale(${amplitude})`;
+}
