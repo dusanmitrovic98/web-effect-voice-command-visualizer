@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <title>Effect Infinity Kinetics</title>
+    <title>Voice Command Visualizer</title>
 </head>
 
 <body>
-    <div id="particles-js"></div>
+    <div class="visualizer">
+        <svg class="circle" width="300" height="300" viewBox="0 0 300 300">
+            <circle class="outer-ring" cx="150" cy="150" r="140"></circle>
+            <circle class="inner-wave" cx="150" cy="150" r="120"></circle>
+        </svg>
+    </div>
     <script src="script.js"></script>
 </body>
 
